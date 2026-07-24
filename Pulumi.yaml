@@ -1,0 +1,31 @@
+name: pulumi-eks-cluster
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Production-ready EKS cluster on AWS with VPC, networking, and managed node groups
+config:
+  aws:region:
+    description: AWS region for the EKS cluster
+    default: us-east-1
+  pulumi-eks-cluster:clusterName:
+    description: Name of the EKS cluster
+    default: eks-cluster
+  pulumi-eks-cluster:clusterVersion:
+    description: Kubernetes version for the EKS cluster
+    default: "1.29"
+  pulumi-eks-cluster:desiredCapacity:
+    description: Desired number of worker nodes
+    default: 2
+  pulumi-eks-cluster:minSize:
+    description: Minimum number of worker nodes
+    default: 1
+  pulumi-eks-cluster:maxSize:
+    description: Maximum number of worker nodes
+    default: 4
+  pulumi-eks-cluster:instanceType:
+    description: EC2 instance type for worker nodes
+    default: t3.medium
+  pulumi-eks-cluster:vpcCidr:
+    description: CIDR block for the VPC
+    default: 10.0.0.0/16

@@ -1,0 +1,9 @@
+config:
+  aws:region: us-east-1
+  pulumi-eks-cluster:clusterName: eks-dev-cluster
+  pulumi-eks-cluster:clusterVersion: "1.29"
+  pulumi-eks-cluster:desiredCapacity: 2
+  pulumi-eks-cluster:minSize: 1
+  pulumi-eks-cluster:maxSize: 4
+  pulumi-eks-cluster:instanceType: t3.medium
+  pulumi-eks-cluster:vpcCidr: 10.0.0.0/16
