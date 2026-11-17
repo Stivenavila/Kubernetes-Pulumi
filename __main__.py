@@ -5,7 +5,6 @@ Production-ready Kubernetes cluster on AWS with VPC, networking, and node groups
 
 import pulumi
 import pulumi_aws as aws
-import pulumi_eks as eks
 from pulumi import Output, ResourceOptions
 
 # Get configuration values
