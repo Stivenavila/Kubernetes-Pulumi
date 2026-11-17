@@ -1,5 +1,11 @@
 # AWS EKS Cluster with Pulumi
 
+[![CI](https://github.com/Stivenavila/Kubernetes-Pulumi/actions/workflows/ci.yml/badge.svg)](https://github.com/Stivenavila/Kubernetes-Pulumi/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![Pulumi](https://img.shields.io/badge/Pulumi-8A3391?logo=pulumi&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
+![Amazon EKS](https://img.shields.io/badge/Amazon%20EKS-FF9900?logo=amazoneks&logoColor=white)
+
 Production-ready Amazon Elastic Kubernetes Service (EKS) cluster deployed using Pulumi Infrastructure as Code.
 
 ## 🏗️ Architecture Overview
